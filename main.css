@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-family: "Love Light", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+}
+
+section h2,
+form button {
+    font-family: "Cookie", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+}
+
+body, input, textarea {
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+header {
+    background-color: darkgoldenrod;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 16px;
+}
+
+header nav li {
+    margin: 16px;
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header nav li, a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    background-color: darkkhaki;
+}
+
+.container,
+.articles article {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sobre-nos {
+    text-align: center;
+}
+
+.sobre-nos p {
+    margin-bottom: 16px;
+}
+
+.products {
+    height: 250px;
+    width: 250px;
+    margin-right: 26px;
+    margin-top: 26px;
+}
+
+.material-list img {
+    height: 64px;
+    width: 64px;
+    margin-top: 28px;
+}
+
+.material-list li {
+    display: inline;
+}
+
+section article .container p {
+    text-align: justify;
+}
+
+section article .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section article p {
+    margin-bottom: 8px;
+    margin-right: 24px;
+    text-align: justify;
+}
+
+section img {
+    margin-right: 26px;
+}
+
+.articles article {
+    display: flex;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#orçamentos .container {
+    display: block;
+}
+
+.orçamentos-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, 
+form textarea, 
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: darkgoldenrod;
+    color: black;
+    cursor: pointer;
+    border-color: darkgoldenrod;
+}
+
+form button:hover {
+    background-color: darkorange;
+}
+
+input:focus, textarea:focus {
+    outline-color: darkgoldenrod;
+}
+
+footer {
+    background-color: darkgoldenrod;
+    color: black;
+    padding: 16px 0;
+    text-align: center;
+}
